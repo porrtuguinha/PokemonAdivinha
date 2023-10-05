@@ -66,6 +66,9 @@ namespace pokemonAdivinha
 
         private void recarregar1_Click(object sender, EventArgs e)
         {
+            palpite.Text = "";
+            LabelAcertou.Visible = false;
+            LabelErrou .Visible = false ;
             tentativas = 3;
             pokemon = conecta.recarregar();
             pictureBox1.LoadAsync(pokemon.sprites.front_default);
