@@ -37,6 +37,9 @@
             label4 = new Label();
             numeroTentativas = new Label();
             recarregar1 = new Button();
+            label2 = new Label();
+            numeroAcertos = new Label();
+            Sair = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -123,11 +126,42 @@
             recarregar1.Visible = false;
             recarregar1.Click += recarregar1_Click;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(628, 45);
+            label2.Name = "label2";
+            label2.Size = new Size(47, 15);
+            label2.TabIndex = 9;
+            label2.Text = "Acertos";
+            // 
+            // numeroAcertos
+            // 
+            numeroAcertos.AutoSize = true;
+            numeroAcertos.Location = new Point(721, 45);
+            numeroAcertos.Name = "numeroAcertos";
+            numeroAcertos.Size = new Size(38, 15);
+            numeroAcertos.TabIndex = 10;
+            numeroAcertos.Text = "label3";
+            // 
+            // Sair
+            // 
+            Sair.Location = new Point(12, 403);
+            Sair.Name = "Sair";
+            Sair.Size = new Size(131, 35);
+            Sair.TabIndex = 11;
+            Sair.Text = "Sair";
+            Sair.UseVisualStyleBackColor = true;
+            Sair.Click += Sair_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(Sair);
+            Controls.Add(numeroAcertos);
+            Controls.Add(label2);
             Controls.Add(recarregar1);
             Controls.Add(numeroTentativas);
             Controls.Add(label4);
@@ -156,5 +190,8 @@
         private Label label4;
         private Label numeroTentativas;
         private Button recarregar1;
+        private Label label2;
+        private Label numeroAcertos;
+        private Button Sair;
     }
 }

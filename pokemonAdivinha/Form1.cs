@@ -17,6 +17,7 @@ namespace pokemonAdivinha
         public Pokemon pokemon = new Pokemon();
         ConectaApi conecta = new ConectaApi();
         public int tentativas = 3;
+        public int acertos = 0;
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace pokemonAdivinha
             pokemon = conecta.recarregar();
             pictureBox1.LoadAsync(pokemon.sprites.front_default);
             numeroTentativas.Text = tentativas.ToString();
+            numeroAcertos.Text = acertos.ToString();
 
         }
 
@@ -35,12 +37,16 @@ namespace pokemonAdivinha
         {
             if (tentativas > 1)
             {
-                if (palpite.Text == pokemon.name)
+                if (palpite.Text == pokemon.species.name)
                 {
                     LabelAcertou.Visible = true;
                     LabelErrou.Visible = false;
                     adivinhar.Visible = false;
                     recarregar1.Visible = true;
+                    acertos++;
+                    numeroAcertos.Text = acertos.ToString();
+              
+
 
                 }
                 else
@@ -51,13 +57,13 @@ namespace pokemonAdivinha
                 }
 
             }
-            else 
+            else
             {
                 tentativas--;
                 numeroTentativas.Text = tentativas.ToString();
-                LabelErrou.Text = $"o nome do pokemon era {pokemon.name} Recarreque o jogo e tente de novo";
+                LabelErrou.Text = $"o nome do pokemon era {pokemon.species.name} Recarreque o jogo e tente de novo";
                 recarregar1.Visible = true;
-                adivinhar .Visible = false;
+                adivinhar.Visible = false;
 
 
             }
@@ -68,13 +74,18 @@ namespace pokemonAdivinha
         {
             palpite.Text = "";
             LabelAcertou.Visible = false;
-            LabelErrou .Visible = false ;
+            LabelErrou.Visible = false;
             tentativas = 3;
             pokemon = conecta.recarregar();
             pictureBox1.LoadAsync(pokemon.sprites.front_default);
             numeroTentativas.Text = tentativas.ToString();
             adivinhar.Visible = true;
 
+        }
+
+        private void Sair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

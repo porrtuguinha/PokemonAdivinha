@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thiago\\source\\repos\\pokemonAdivinha\\pokemonAdivinha\\pokemonAdivinha.csproj": {}
+    "C:\\Users\\Thiago\\Source\\Repos\\PokemonAdivinhaGit\\pokemonAdivinha\\pokemonAdivinha.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thiago\\source\\repos\\pokemonAdivinha\\pokemonAdivinha\\pokemonAdivinha.csproj": {
+    "C:\\Users\\Thiago\\Source\\Repos\\PokemonAdivinhaGit\\pokemonAdivinha\\pokemonAdivinha.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thiago\\source\\repos\\pokemonAdivinha\\pokemonAdivinha\\pokemonAdivinha.csproj",
+        "projectUniqueName": "C:\\Users\\Thiago\\Source\\Repos\\PokemonAdivinhaGit\\pokemonAdivinha\\pokemonAdivinha.csproj",
         "projectName": "pokemonAdivinha",
-        "projectPath": "C:\\Users\\Thiago\\source\\repos\\pokemonAdivinha\\pokemonAdivinha\\pokemonAdivinha.csproj",
+        "projectPath": "C:\\Users\\Thiago\\Source\\Repos\\PokemonAdivinhaGit\\pokemonAdivinha\\pokemonAdivinha.csproj",
         "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thiago\\source\\repos\\pokemonAdivinha\\pokemonAdivinha\\obj\\",
+        "outputPath": "C:\\Users\\Thiago\\Source\\Repos\\PokemonAdivinhaGit\\pokemonAdivinha\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
