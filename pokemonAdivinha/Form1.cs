@@ -80,6 +80,8 @@ namespace pokemonAdivinha
             pictureBox1.LoadAsync(pokemon.sprites.front_default);
             numeroTentativas.Text = tentativas.ToString();
             adivinhar.Visible = true;
+            LabelErrou.Text = "Errou,Tente novamente";
+            LabelErrou.Visible = false;
 
         }
 
