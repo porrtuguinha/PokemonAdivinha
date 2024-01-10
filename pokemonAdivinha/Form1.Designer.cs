@@ -40,6 +40,8 @@
             label2 = new Label();
             numeroAcertos = new Label();
             Sair = new Button();
+            label3 = new Label();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -154,11 +156,32 @@
             Sair.UseVisualStyleBackColor = true;
             Sair.Click += Sair_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(602, 152);
+            label3.Name = "label3";
+            label3.Size = new Size(87, 15);
+            label3.TabIndex = 12;
+            label3.Text = "Taxa de acertos";
+            label3.Click += label3_Click;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(721, 152);
+            label5.Name = "label5";
+            label5.Size = new Size(38, 15);
+            label5.TabIndex = 13;
+            label5.Text = "label5";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label5);
+            Controls.Add(label3);
             Controls.Add(Sair);
             Controls.Add(numeroAcertos);
             Controls.Add(label2);
@@ -193,5 +216,7 @@
         private Label label2;
         private Label numeroAcertos;
         private Button Sair;
+        private Label label3;
+        private Label label5;
     }
 }

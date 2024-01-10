@@ -17,7 +17,9 @@ namespace pokemonAdivinha
         public Pokemon pokemon = new Pokemon();
         ConectaApi conecta = new ConectaApi();
         public int tentativas = 3;
-        public int acertos = 0;
+        public double acertos = 0;
+        public double pokemonCarregados = 0;
+        public double taxaDeAcertos = 0;
         public Form1()
         {
             InitializeComponent();
@@ -30,6 +32,7 @@ namespace pokemonAdivinha
             pictureBox1.LoadAsync(pokemon.sprites.front_default);
             numeroTentativas.Text = tentativas.ToString();
             numeroAcertos.Text = acertos.ToString();
+            label5.Text = taxaDeAcertos.ToString() + "%";
 
         }
 
@@ -45,7 +48,7 @@ namespace pokemonAdivinha
                     recarregar1.Visible = true;
                     acertos++;
                     numeroAcertos.Text = acertos.ToString();
-              
+
 
 
                 }
@@ -82,12 +85,21 @@ namespace pokemonAdivinha
             adivinhar.Visible = true;
             LabelErrou.Text = "Errou,Tente novamente";
             LabelErrou.Visible = false;
+            pokemonCarregados++;
+            taxaDeAcertos = acertos / pokemonCarregados *100;
+            label5.Text = taxaDeAcertos.ToString("##.##") + "%";
+            
 
         }
 
         private void Sair_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
