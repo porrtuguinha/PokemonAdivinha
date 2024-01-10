@@ -1,0 +1,9 @@
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\pokemonAdivinha.exe
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\pokemonAdivinha.dll
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\pokemonAdivinha.deps.json
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\pokemonAdivinha.runtimeconfig.json
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\pokemonAdivinha.pdb
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\RestSharp.dll
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\System.Text.Encodings.Web.dll
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\System.Text.Json.dll
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\app.publish\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

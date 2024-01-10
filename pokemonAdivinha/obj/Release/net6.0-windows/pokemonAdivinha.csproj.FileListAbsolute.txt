@@ -43,3 +43,7 @@ C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\obj\Release\net6
 C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\obj\Release\net6.0-windows\pokemonAdivinha.pdb
 C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\obj\Release\net6.0-windows\pokemonAdivinha.genruntimeconfig.cache
 C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\obj\Release\net6.0-windows\ref\pokemonAdivinha.dll
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\pokemonAdivinha.dll.manifest
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\bin\Release\net6.0-windows\pokemonAdivinha.application
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\obj\Release\net6.0-windows\pokemonAdivinha.dll.manifest
+C:\Users\Thiago\source\repos\PokemonAdivinhaGit\pokemonAdivinha\obj\Release\net6.0-windows\pokemonAdivinha.application
