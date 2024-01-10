@@ -13,7 +13,7 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\Thiago\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Thiago\\.nuget\\packages"
+      "C:\\Users\\Usuario\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
