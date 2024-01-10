@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/pw+aqrgQ61x9f+N6HbX4afrC/4ftpI/fm1hsd5XEhvpeSP41u56WoUak/tMpcVMtl/NkF/rf6Lg5zegYGlUMQ==",
+  "dgSpecHash": "ytfp7X/NC9Mac+lGD3QnTlXDumnViQPawn06NTI3ULmOgLgJLi2ifxXl5lZcAk5nemqyxbPRzktbFYKt5Vb8jA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Thiago\\source\\repos\\PokemonAdivinhaGit\\pokemonAdivinha\\pokemonAdivinha.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Source\\Repos\\PokemonAdivinha\\pokemonAdivinha\\pokemonAdivinha.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Thiago\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
-    "C:\\Users\\Thiago\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Thiago\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\Thiago\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
+    "C:\\Users\\Usuario\\.nuget\\packages\\restsharp\\110.2.0\\restsharp.110.2.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512"
   ],
   "logs": []
 }
